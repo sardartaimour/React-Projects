@@ -7,8 +7,11 @@ function App() {
       <h1>Learn React Redux Toolkit</h1>
 
       <div className="container">
-        <div className="row">
-          <div className="col-lg-12">
+        <div
+          className="row"
+          style={{ display: "flex", justifyContent: "center" }}
+        >
+          <div className="col-lg-9">
             <AddTodo />
             <Todos />
           </div>

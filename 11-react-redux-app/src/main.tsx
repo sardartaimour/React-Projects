@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.tsx";
+import "./index.css";
 import "bootstrap/dist/css/bootstrap.css";
 import { Provider } from "react-redux";
 import { Store } from "./app/state-management/store.ts";
